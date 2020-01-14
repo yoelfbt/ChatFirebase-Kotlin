@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861183428435",
+    "firebase_url": "https://kotlinchatting-3203f.firebaseio.com",
+    "project_id": "kotlinchatting-3203f",
+    "storage_bucket": "kotlinchatting-3203f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861183428435:android:d871adca1baa61aede03a6",
+        "android_client_info": {
+          "package_name": "com.example.kotlinmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861183428435-u12hcjv9lap2pop8m6g4egn0rpav9f4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDBTLbYAv2u_bZCKbyMKZF0ZnIUgcalA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861183428435-u12hcjv9lap2pop8m6g4egn0rpav9f4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

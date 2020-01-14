@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+android:layout_marginBottom="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/black"
+            android:layout_height="50dp" app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/torow_imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+    <TextView
+            android:text="This is my Message, This is my Message, This is my Message, This is my Message, This is my Message, This is my Message,"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/torow_textView"
+            android:background="@drawable/rounded_chatedittext"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:maxWidth="260dp"
+            app:layout_constraintTop_toTopOf="@+id/torow_imageView"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/torow_imageView" android:layout_marginRight="8dp"/>
+</android.support.constraint.ConstraintLayout>
